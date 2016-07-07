@@ -1,0 +1,105 @@
+@basecolor:#27cda5;
+
+body
+{
+    background:url(../img/bg.jpg) no-repeat fixed;
+}
+
+.container
+{
+    //width:800px;
+}
+
+#wrapper
+{
+    margin:0px auto;
+    margin-top:20px;
+    margin-bottom:20px;
+    background:#ffffff;
+    border-radius:5px;
+    box-shadow:0px 0px 10px #666;
+}
+
+nav
+{
+    .navbar-brand
+    {
+        color:@basecolor;
+    }
+}
+
+.content
+{
+    padding-top:10px;
+    padding-bottom:10px;
+    .product-list
+    {
+        .product
+        {
+            width:100%;
+            padding-top:5px;
+            padding-bottom:5px;
+            border-bottom:1px solid #999;
+            display:block;
+            .title
+            {
+                display:block;
+                font-size:24px; 
+                color:@basecolor;
+            }
+            
+            .image
+            {
+                width:90%;
+                display:block;
+            }
+            
+            .price
+            {
+                font-size:24px;
+                color:@basecolor;
+                display:block;
+                width:100%;
+                text-align:center;
+            }
+            
+            .add-to-cart
+            {
+                width:70px;
+                height:60px;
+                padding-top:5px;
+                border-radius:5px;
+                background:@basecolor;
+                color:#FFFFFF;
+                font-size:36px;
+                border:0px;
+                margin:0px auto;
+                margin-top:20px;
+                display:block;
+            }
+
+            .buy-now
+            {
+                height:60px;
+                padding-top:5px;
+                border-radius:5px;
+                background:@basecolor;
+                color:#FFFFFF;
+                font-size:36px;
+                border:0px;
+                margin:0px auto;
+                margin-top:20px;
+                display:block;
+            }
+
+            .delete-from-cart
+            {
+                width:100%;
+                text-align:center;
+                margin:0px auto;
+                display:block;
+                margin-top:10px;
+            }
+        }
+    }
+}
